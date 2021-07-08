@@ -23,12 +23,12 @@ const Home = () => {
               <img src="${busqueda}" alt="Imagen de arrastre de documentos">
               <div class="drag-documents-text-container">
                 <div class="input-group mb-3">
-                  <input type="file" class="form-control" id="inputGroupFile02">
+                  <input type="file" class="form-control" id="inputGroupFile02" accept=".jpg, .png, .jpeg, .gif">
                 </div>
               </div>
           </div>
         </section>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-success">Enviar</button>
       </form>
     </div>
       `;
