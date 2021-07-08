@@ -22,7 +22,9 @@ const Home = () => {
           <div class="drag-documents-div">
               <img src="${busqueda}" alt="Imagen de arrastre de documentos">
               <div class="drag-documents-text-container">
-                  <p>Arrastra aquí o <input type="file" placeholder=""> selecciona una imagen desde tus archivos</p>
+                <div class="input-group mb-3">
+                  <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
               </div>
           </div>
         </section>
