@@ -5,7 +5,7 @@ import img_search from "../img/Search-icon.png";
 
 const Content_browser = () => {
     const view =`
-    <section class="Content_browser" id="Content_browser"> 
+    <section class="Content_browser"> 
         <section class="title-home-section">
         <div class="title-home-div">
             <span><img src="${img_logo}" alt="Logo Sci-fi Site"></span>

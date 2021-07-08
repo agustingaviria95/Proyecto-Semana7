@@ -1,5 +1,4 @@
 import "./assets/styles.css";
-import router from "./routes";
+import router from "./routes/index"
 
 window.addEventListener("load", router);
-console.log("Single Page Application");
