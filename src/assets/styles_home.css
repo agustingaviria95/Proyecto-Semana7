@@ -1,0 +1,14 @@
+.Content_browser .title-home-div {
+    display: flex;
+    flex-direction: column;
+}
+.Content_browser .navbar form span img {
+    display: none;
+}
+.Content_browser .filter-container {
+    display: flex;
+    flex-direction: column;
+}
+.Content_browser .filter-container span {
+    display: none;
+}
