@@ -9,7 +9,7 @@ const router = async (route) => {
   console.log(header);
   header.innerHTML = await Header();
   const footer = null || document.getElementById("footer");
-  footer.innerHTML = await footer();
+  footer.innerHTML = await Footer();
 };
 
 export default router;
