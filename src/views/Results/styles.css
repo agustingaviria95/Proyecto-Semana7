@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.title-games-section {
+    margin: 30px 0 30px 0;
+} 
+.games-container {
+    padding: 10px 5px 5px 10px;
+}
+.nav-pages {
+    margin: 40px 0 25px 0;
+}
