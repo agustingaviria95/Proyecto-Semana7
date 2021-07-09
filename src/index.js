@@ -1,4 +1,4 @@
-import "./views/Content_browser/Content_broser.css";
+import "./views/Content_browser/Content_browser.css";
 import "./components/Header/Header.css"
 import router from "./routes/index"
 
