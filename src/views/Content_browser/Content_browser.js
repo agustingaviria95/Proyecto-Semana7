@@ -1,7 +1,7 @@
-import img_logo from "../assets/img/Logo-header.png";
-import img_close from "../assets/img/close-icon.png";
-import img_search from "../assets/img/Search-icon.png";
-import busqueda from "../assets/img/busqueda.png";
+import img_logo from "../../assets/img/Logo-header.png";
+import img_close from "../../assets/img/close-icon.png";
+import img_search from "../../assets/img/Search-icon.png";
+import busqueda from "../../assets/img/Busqueda.png";
 
 const Content_browser = () => {
     const view =`
