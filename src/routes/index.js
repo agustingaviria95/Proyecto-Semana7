@@ -1,9 +1,8 @@
 import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Home from "../views/Home/Home";
+import Results from "../views/Results/Results";
 
 const routes = {
-  "/": Home
+  "/": Results
 }
 
 //ROUTER
@@ -11,7 +10,7 @@ const router = async (route) => {
   const header = null || document.getElementById("header-home");
   header.innerHTML = await Header();
   const content = null || document.getElementById("content");
-  content.innerHTML = await Home();
+  content.innerHTML = await Results();
 };
 
 export default router;
