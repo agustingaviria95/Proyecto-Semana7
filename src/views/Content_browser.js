@@ -35,6 +35,7 @@ const Content_browser = () => {
             </button>
         </div>
         <div class="formulario" id="formulario">
+        <h5 class="titulo-form">Quieres hacer una recomendacion a la comunidad? ¡rellena el siguiente formulario y podras hacerlo!</h5>
       <form>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Nombre</label>
