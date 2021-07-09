@@ -7,20 +7,18 @@ import game1 from "../../assets/img/halo-mcc.jpg";
 import game2 from "../../assets/img/ff-vii-remake.jpg";
 import game3 from "../../assets/img/horizon-zero-dawn.jpg";
 import game4 from "../../assets/img/resident-evil-village.jpg";
-import img_search from "../../assets/img/Search-icon.png";
 
 const Results = () => {
     const view = `
     <section class="row">
-      <div class="col-sm-12 col-lg-8">
+      <div class="col-12">
         <nav class="navbar navbar-light bg-transparent">
-            <div class="container-fluid">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-                    <span><img src="${img_search}"</span>
-                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
-                </form>
-            </div>
+          <div class="container-fluid">
+            <form class="input-group">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Buscar</button>
+            </form>
+          </div>
         </nav>
       </div>
     </section>
