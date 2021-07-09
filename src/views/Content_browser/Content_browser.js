@@ -3,7 +3,7 @@ import img_close from "../../assets/img/close-icon.png";
 //import img_search from "../../assets/img/Search-icon.png";
 import busqueda from "../../assets/img/Busqueda.png";
 
-const Content_browser = () => {
+const Homepage = () => {
     const view =`
         <section class="Content_browser">
             <div class="title-home-div">
@@ -66,4 +66,4 @@ const Content_browser = () => {
     return view;
 };
 
-export default Content_browser;
+export default Homepage;
