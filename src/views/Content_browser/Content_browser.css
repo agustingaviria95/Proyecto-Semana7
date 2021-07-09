@@ -1,54 +1,73 @@
 *{
     margin: 0;
 }    
-.Content_browser {
+.Content_home {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
-  }
+}
+
+.Content_browser{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .title-home-div {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
     align-items: center;
-  }
-.Content_browser .navbar {
-      width: 80%;
-      border: 1px solid gray;
-      border-radius: 50px;
-  }
- .Content_browser .navbar form {
+}
+
+.Content_home .navbar {
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 50px;
+
+}
+
+ .Content_home .navbar form {
      width: 100%;
- } 
-.Content_browser .navbar form input {
+} 
+
+.Content_home .navbar form input {
     border: none;
 }
-.Content_browser .navbar span {
+
+.Content_home .navbar span {
     width: 15%;
 }  
-.Content_browser .navbar span img {
+
+.Content_home .navbar span img {
     width: 20%;
 } 
-.Content_browser .filter-container {
+
+.Content_home .filter-container {
     display: flex;
     width: 80%;
 }
-.Content_browser .filter-container span img {
-    width: 10%;
+
+.Content_home .filter-container span img {
+    width: 20px;
 }
-.Content_browser .filter-container button {
+
+.Content_home .filter-container button {
     margin: 2%;
 }
+
 .formulario{
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 70%;
     flex-direction: column;
     align-content: center;
+    width: 50%;
 }
 
 .formulario h6{
