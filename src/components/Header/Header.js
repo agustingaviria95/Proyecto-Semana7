@@ -1,4 +1,4 @@
-import img from "../../assets/img/LOGO 1.5.png";
+import img from "../../assets/img/main-logo.png";
 
 const Header = () => {
   const view = `

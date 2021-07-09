@@ -1,6 +1,6 @@
-import img_logo from "../../assets/img/LOGO 1.5.png";
+import img_logo from "../../assets/img/main-logo.png";
 import img_close from "../../assets/img/close-icon.png";
-import img_search from "../../assets/img/Search-icon.png";
+//import img_search from "../../assets/img/Search-icon.png";
 import busqueda from "../../assets/img/Busqueda.png";
 
 const Content_browser = () => {
