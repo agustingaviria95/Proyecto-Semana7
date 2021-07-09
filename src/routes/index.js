@@ -1,6 +1,6 @@
-import Header from "../assets/components/Header";
-import Footer from "../assets/components/Footer";
-import Content_browser from "../assets/views/Content_browser";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Content_browser from "../views/Content_browser";
 
 const routes = {
   "/": Content_browser
