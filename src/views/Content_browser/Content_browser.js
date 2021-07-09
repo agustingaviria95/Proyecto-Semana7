@@ -8,15 +8,14 @@ const Content_browser = () => {
         <section class="Content_browser">
             <div class="title-home-div">
               <span><img src="${img_logo}" alt="Logo Sci-fi Site" width="400px"></span>
-              <span> <p>Buscador <br> de entretenimiento</p> </span>
+              <span><p>Buscador <br> de entretenimiento</p> </span>
           </div>
         </section>
         <nav class="navbar navbar-light bg-transparent">
             <div class="container-fluid">
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-                    
-                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    <button onclick="resuladosBuscador()" class="btn btn-outline-primary" type="submit">Buscar</button>
                 </form>
             </div>
         </nav>
