@@ -7,20 +7,27 @@ import game1 from "../../assets/img/halo-mcc.jpg";
 import game2 from "../../assets/img/ff-vii-remake.jpg";
 import game3 from "../../assets/img/horizon-zero-dawn.jpg";
 import game4 from "../../assets/img/resident-evil-village.jpg";
+import img_search from "../../assets/img/Search-icon.png";
 
 const Results = () => {
-    const view = `
-    <section class="row">
-      <div class="col-12">
-        <nav class="navbar navbar-light bg-transparent">
-            <div class="container-fluid">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-                    <button onclick="resuladosBuscador()" class="btn btn-outline-primary" type="submit">Buscar</button>
-                </form>
-            </div>
-        </nav>
-      </div>
+
+    return `
+    <section class="row" id="navBrowser">
+    <section class="browser-home">
+    <section class="search-section-home">
+        <div class="search-div-home">
+            <span class="search-span-home">
+                <span class="search-input-span">
+                    <span class="search-icon">
+                        <img src="${img_search}" alt="Icono de buscar">
+                    </span>
+                    <input id="buscadorResult" value="${document.cookie.split('searchBrowser=')[1]}" type="text" placeholder="Busca cualquier término jurídico">
+                </span>
+            </span>
+        </div>
+      <span class="search-button-home"><button><a href="resultados.html">BUSCAR</a></button></span>
+  </section>
+</section>  
     </section>
     <section class="row">
       <div class="col-sm-12 col-lg-8">

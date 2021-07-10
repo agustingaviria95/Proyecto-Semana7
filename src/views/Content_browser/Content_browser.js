@@ -2,23 +2,39 @@ import css from "./Content_browser.css"
 import img_logo from "../../assets/img/main-logo.png";
 import img_close from "../../assets/img/close-icon.png";
 import busqueda from "../../assets/img/Busqueda.png";
+import img_search from "../../assets/img/Search-icon.png";
 
 const Homepage = () => {
-    const view =`
+
+  setTimeout(function(){
+    document.getElementById('refreshToResults').onclick = function(){
+      const valueSearch = document.getElementById('buscador').value
+      document.cookie = `searchBrowser=${valueSearch}`;
+    };
+   }, 3000);
+
+    return`
         <section class="Content_browser">
             <div class="title-home-div">
               <span><img src="${img_logo}" alt="Logo Sci-fi Site" width="400px"></span>
               <span><p>Buscador <br> de entretenimiento</p> </span>
           </div>
         </section>
-        <nav class="navbar navbar-light bg-transparent">
-            <div class="container-fluid">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-                    <button onclick="resuladosBuscador()" class="btn btn-outline-primary" type="submit">Buscar</button>
-                </form>
-            </div>
-        </nav>
+        <section class="browser-home">
+            <section class="search-section-home">
+                <div class="search-div-home">
+                    <span class="search-span-home">
+                        <span class="search-input-span">
+                            <span class="search-icon">
+                                <img src="${img_search}" alt="Icono de buscar">
+                            </span>
+                            <input id="buscador" type="text" placeholder="¿Qué estás buscando?">
+                        </span>
+                    </span>
+                </div>
+              <span class="search-button-home"><button id="refreshToResults"><a href="#results">BUSCAR</a></button></span>
+          </section>
+        </section>  
         <div class="filter-container" >
             <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
             Filtrar por videojuegos <span><img src="${img_close}"></span>
@@ -63,7 +79,6 @@ const Homepage = () => {
       </form>
     </div>
         `;
-    return view;
 };
 
 export default Homepage;
