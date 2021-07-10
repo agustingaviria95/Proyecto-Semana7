@@ -11,3 +11,25 @@
 .nav-pages {
     margin: 40px 0 25px 0;
 }
+
+.row {
+    width: 80%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+ .row form {
+     width: 100%;
+} 
+
+.row form input {
+    border: none;
+}
+
+.row span {
+    width: 15%;
+}  
+
+.row span img {
+    width: 20%;
+} 

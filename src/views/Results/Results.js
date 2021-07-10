@@ -13,12 +13,12 @@ const Results = () => {
     <section class="row">
       <div class="col-12">
         <nav class="navbar navbar-light bg-transparent">
-          <div class="container-fluid">
-            <form class="input-group">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-primary" type="submit">Buscar</button>
-            </form>
-          </div>
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+                    <button onclick="resuladosBuscador()" class="btn btn-outline-primary" type="submit">Buscar</button>
+                </form>
+            </div>
         </nav>
       </div>
     </section>

@@ -1,4 +1,4 @@
-.header-home {
+.header {
     background-color: #c9d1e2;
     width: 100%;
     height: 40px;
@@ -6,17 +6,17 @@
     padding-left: 20px;
     display: flex;
     justify-content: space-between;
-  }
+}
   
-.header-home span img {
+.header span img {
     height: 25px;
-  }
+}
   
-.header-home span a {
+.header span a {
     display: flex;
     margin-right: 50px;
     margin-top: 3px;
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
     color: black;
-  }
+}
