@@ -69,7 +69,7 @@ const Results = () => {
               <h5 class="card-title text-black text-center">La Liga de la Justicia de Zack Snyder</h5><hr>
               <p class="text-black text-center">Luego de esperar cinco años de batallas interminables entre Zack Snyder y Warner Brothers la humanidad ha conseguido ver el corte del director de la película que él dice que siempre quiso hacer, llegó una nueva liga de héroes sin precedentes.</p>
             </div>
-            <button type="button" class="btn btn-primary btn-lg btn-block">Juega Ahora</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Mírala Ahora</button>
           </div>
           <div class="card bg-transparent border-light games-container">
             <a href="/"><img src="${movie2}" class="card-img-top" alt="Resident Evil Village"></a>
@@ -77,7 +77,7 @@ const Results = () => {
               <h5 class="card-title text-black text-center">Borat</h5><hr>
               <p class="text-black text-center">Borat Sagdiyev, uno de los periodistas más famosos en su país por triunfar en los Estados Unidos y su cultura, ha sido golpeado por la realidad y descubre que solo trajo vergüenza a Kazajstán. Para corregir el problema, su gobierno lo ha asignado a una nueva misión en territorio norteamericano.</p>
             </div>
-            <button type="button" class="btn btn-primary btn-lg btn-block">Juega Ahora</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Mírala Ahora</button>
           </div>
         </div>
       </section>
