@@ -1,32 +1,31 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .title-games-section {
-    margin: 30px 0 30px 0;
+    margin: 0px 0 30px 0;
 } 
 .games-container {
     padding: 10px 5px 5px 10px;
 }
 .nav-pages {
-    margin: 40px 0 25px 0;
+    margin: 0px 0 25px 0;
 }
 #navBrowser {
     width: 100%;
 }
-
 .content .browser-home {
-    margin: 0 auto;
-    padding: 20px;
+    margin: 20px auto;
     display: flex;
-    width: 60%;
-    flex-direction: row;
+    width: 80%;
 }
-
 .content .search-section-home {
     display: flex;
     margin: 0 auto;
-    width: 104%;
+    width: 100%;
     font-family: 'Work Sans', sans-serif;
     flex-direction: column;
     align-items: center;
@@ -51,7 +50,6 @@
     border: none;
     outline: none;
 }
-
 .content .search-span-home .search-input-span {
     display: flex;
     align-items: center;
@@ -62,3 +60,73 @@
     padding-top: 8px;
     padding-left: 14px;
 }
+.comments-section {
+    width: 100%;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.main-comments {
+    background-color: #003064;
+}
+.comments-section h3 {
+    padding: 40px 20px;
+}
+.user-raiting img {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+}
+.user-raiting {
+   display: flex;
+}
+.rating-css div {
+    color: #ffe400;
+}
+.rating-css input {
+    display: none;
+}
+.rating-css input:checked + label ~ label {
+    color: #838383;
+}
+.rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+.rating-css p {
+    padding: 4px 0 0 10px;
+}
+.higlited-reply {
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    width: 150px;
+}
+.higlited-reply img {
+    width: 12px;
+    height: 12px;
+    color: white;
+    margin-left: 5px;
+}
+.comment {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.main-response-section img {
+  width: 15px;
+  height: 15px;
+}
+.main-response-section {
+  width: 160px;
+  margin-left: 40px;
+  font-size: 15px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  justify-content: space-around;
+  display: flex;
+}
+.main-response-section span img{
+  margin-bottom: 3px;
+}
+  

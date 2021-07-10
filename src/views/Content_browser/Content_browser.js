@@ -28,7 +28,7 @@ const Homepage = () => {
                             <span class="search-icon">
                                 <img src="${img_search}" alt="Icono de buscar">
                             </span>
-                            <input id="buscador" type="text" placeholder="¿Qué estás buscando?">
+                            <input id="buscador" type="text" placeholder="Buscador">
                         </span>
                     </span>
                 </div>
