@@ -8,22 +8,22 @@ import Results from "../views/Results/Results";
 
 const router = async (route) => {
   //componentes
-  const header = null || document.getElementById("header-home");
+  const header = null || document.getElementById("header");
   header.innerHTML = await Header();
 
   const footer = null || document.getElementById("footer");
   footer.innerHTML = await Footer();
 
   //views
-  const container = null || document.getElementById("content");
+  const content = null || document.getElementById("content");
   if (route === "") {
-    container.innerHTML = await Homepage();
+    content.innerHTML = await Homepage();
   }
   if (route === "#inicio") {
-    container.innerHTML = await Homepage();
+    content.innerHTML = await Homepage();
   }
   if (route === "#results") {
-    container.innerHTML = await Results();
+    content.innerHTML = await Results();
   }
 }
 

@@ -1,3 +1,5 @@
+import css from "./Footer.css"
+
 const Footer = () => {
     const view = `
         <div class="contenedor__footer">

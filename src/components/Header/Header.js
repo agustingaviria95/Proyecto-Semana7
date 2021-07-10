@@ -1,3 +1,4 @@
+import css from "./Header.css"
 import img from "../../assets/img/main-logo.png";
 
 const Header = () => {
